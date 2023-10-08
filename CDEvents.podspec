@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage     = "http://rastersize.github.com/CDEvents"
   s.license      = "MIT"
   s.author       = { "Aron Cedercrantz" => "aron@cedercrantz.se" }
-  s.source       = { :git => "https://github.com/rastersize/CDEvents.git", :tag => "1.2.2" }
-  s.platform     = :osx, "10.6"
+  s.source       = { :git => "https://github.com/Droplr/CDEvents.git", :tag => "1.2.2" }
+  s.platform     = :osx, "10.13"
   s.source_files = "*.{h,m}"
   s.framework    = "CoreServices"
   s.requires_arc = true
